@@ -1,125 +1,171 @@
-# DevOps Lab - Nakshathra
+<table style="width: 100%; border-collapse: collapse; padding:0;">
+  <tr>
+    <td style="width: 20%; border: 1px solid black; padding: 0;">
+      <table style="width: 100%; border-collapse: collapse; border: none;">
+        <tr>
+          <td style="padding-top: 0; border-bottom: 1px solid black; text-align: center; font-weight: bold; border-left: none; border-top: none; vertical-align: middle;">Ex. No. 1</td>
+        </tr>
+        <tr>
+          <td style="padding-bottom:0; text-align: center; border-bottom: none; border-right: none; vertical-align: middle;">12/07/2024</td>
+        </tr>
+      </table>
+    </td>
+    <td style="width: 80%; border: 1px solid black; text-align: center; font-weight: bold; vertical-align: middle;">Git & GitHub</td>
+  </tr>
+</table>
 
-## Exercise 1
+#### AIM
 
-### Task 1 - Exploring Git Commands through Collaborative Coding – Basic Git commands
+Algorithm for Git and GitHub Operations
 
-#### a. Create a Repository
+#### Algorithm
 
-- Setting up a Git repository named "Master".
+1. **Create a Repository**:
+   - Initialize a new Git repository named "Master".
+   - Verify repository initialization.
 
-  ```sh
-  git init
-  ```
+2. **Add and Commit Changes**:
+   - Create a new text file named `README.md`.
+   - Add content to the `README.md` file.
+   - Add the file to the staging area.
+   - Commit the changes with a message.
 
-#### b. Add and Commit Changes
+3. **Exploring History**:
+   - Modify or add content to the text file.
+   - Add and commit the changes.
 
-- Create a new text file named `ReadMe.txt` using any text editor.
+4. **Branching and Merging**:
+   - Create a new branch named `Updated_ReadMe`.
+   - Commit changes in the new branch.
+   - Merge changes from `Updated_ReadMe` branch into `Master` branch.
 
-  ```sh
-  touch README.md
-  ls
-  ```
+5. **Collaborating with Remote Repositories**:
+   - Link the local repository to a remote repository.
 
-#### c. Exploring History
+6. **Push Changes**:
+   - Push local commits to the remote repository.
 
-- Modify or add content to the text file.
+7. **Cloning a Repository**:
+   - Clone the repository from GitHub.
 
-  ```sh
-  echo "# This is the readme file for devops" › README md
-  git add README. md
-  git commit -m "Added README. md"
-  ```
+8. **Making Changes and Creating a Branch**:
+   - Navigate into the cloned repository.
+   - Make necessary changes.
+   - Check the status of the repository.
 
-#### d. Branching and Merging
+9. **Pushing Changes to GitHub**:
+   - Add the changes to the staging area.
+   - Commit the changes.
+   - Push the local branch to the remote repository.
 
-- Create a new branch named `Updated_ReadMe` and commit the changes in the branch.
-- Merge the changes from the `Updated_ReadMe` branch into the `Master` branch.
+10. **Collaborating through Pull Requests**:
+    - Create a pull request on GitHub.
+    - Choose base branch and compare with the new branch.
+    - Review and merge the pull request.
+    - Add title, description, and assign reviewers.
+    - Reviewers approve and merge the pull request into the base branch.
 
-  ```sh
-  git checkout Updated_README
-  echo "# This is the README file for DevOps" > README. md
-  git add README. md
-  git commit -m "Corrected content of README. md"
-  git checkout main
-  git merge Updated_README
+11. **Syncing Changes**:
+    - Update local repository after the pull request is merged.
 
-  ```
+#### Input
 
-#### e. Collaborating with Remote Repositories
+```sh
+# Task 1
+## a. Create a Repository
+git init
 
-- Link your local repository to the remote repository.
+## b. Add and Commit Changes
+touch README.md
+echo "# This is the readme file for devops" > README.md
+git add README.md
+git commit -m "Added README.md"
 
-  ```sh
-  git remote add origin https://github.com/NakshathraP/DevOps.git
-  ```
+## c. Exploring History
+echo "# This is the README file for DevOps" > README.md
+git add README.md
+git commit -m "Corrected content of README.md"
 
-#### f. Push Changes
+## d. Branching and Merging
+git checkout -b Updated_ReadMe
+echo "# This is the updated README file for DevOps" > README.md
+git add README.md
+git commit -m "Updated README.md"
+git checkout main
+git merge Updated_ReadMe
 
-- Push your local commits to the remote repository.
+## e. Collaborating with Remote Repositories
+git remote add origin https://github.com/NakshathraP/DevOps.git
 
-  ```sh
-  git branch -M main
-  git push -u origin main
-  ```
+## f. Push Changes
+git branch -M main
+git push -u origin main
 
----
+# Task 2
+## a. Cloning a Repository
+git clone https://github.com/NakshathraP/DevOps.git
 
-### Task 2 - Implement GitHub Operations using Git
+## b. Making Changes and Creating a Branch
+cd WebTechLab
+touch README.md
+echo "# This is the README file for WebTechLab" > README.md
+git status
 
-#### a. Cloning a Repository
+## c. Pushing Changes to GitHub
+git add .
+git commit -m "Added README.md"
+git push -u origin main
 
-- Clone the repository of your project from GitHub.
+## d. Collaborating through Pull Requests
+# Performed on GitHub:
+# 1. Create a pull request.
+# 2. Choose base branch and compare with new branch.
+# 3. Review and merge the pull request.
+# 4. Add title and description.
+# 5. Assign reviewers.
+# 6. Reviewers approve and merge the pull request.
 
-  ```sh
-  git clone https://github.com/NakshathraP/DevOps.git
-  ```
+## e. Syncing Changes
+git pull origin main
+```
 
-#### b. Making Changes and Creating a Branch
+#### Output
 
-- Navigate into the cloned repository, make the necessary changes, and check the status of the repository.
+1. **Repository Creation**:
+   - A new Git repository named "Master" is created.
+   - Confirmation message displayed.
 
-  ```sh
-  cd WebTechLab
-  touch README. md
-  echo "# This is the README file for WebTechLab" > README. md
-  git status
-  ```
+2. **Add and Commit Changes**:
+   - `README.md` file is created.
+   - File contents are added.
+   - File is added to the staging area and committed.
 
+3. **Exploring History**:
+   - `README.md` file is modified and changes committed.
 
-#### c. Pushing Changes to GitHub
+4. **Branching and Merging**:
+   - New branch `Updated_ReadMe` is created and changes committed.
+   - Changes are merged into the `main` branch.
 
-- Add the repository URL to a variable.
-- Push the local branch to the repository.
+5. **Collaborating with Remote Repositories**:
+   - Local repository is linked to the remote repository.
 
+6. **Push Changes**:
+   - Local commits are pushed to the remote repository.
 
-#### d. Collaborating through Pull Requests
+7. **Cloning a Repository**:
+   - Repository is cloned from GitHub.
 
-- Create a pull request on GitHub.
-- Choose the base branch and compare it with the new branch.
-- Review the changes and merge the pull request.
-- Add a title and description for the pull request.
-- Assign reviewers.
-- Reviewers approve the pull request and merge it into the base branch.
+8. **Making Changes and Creating a Branch**:
+   - Changes are made and the status of the repository is checked.
 
+9. **Pushing Changes to GitHub**:
+   - Changes are pushed to the remote repository.
 
-#### e. Syncing Changes
+10. **Collaborating through Pull Requests**:
+    - Pull request is created, reviewed, and merged on GitHub.
 
-- After the pull request is merged, update your local repository.
+11. **Syncing Changes**:
+    - Local repository is updated with the latest changes from the remote repository.
 
-  ```sh
-  git pull origin main
-  ```
-
-![1a](../photos/Ex1/1a.png?raw=true)
-
----
-
-## Author
-
-- Nakshathra
-
-## Details
-
-- Registration No. - 21011102070
-- Class - IoT B
+    ![1a](../photos/Ex1/1a.png?raw=true)

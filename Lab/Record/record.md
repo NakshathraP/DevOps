@@ -248,10 +248,10 @@ Algorithm for Implementing GitLab Operations using Git
 # Task 2: Cloning a Repository
 # 1. Copy the repository URL.
 # 2. Open terminal.
-git clone https://gitlab.com/MukeshTheGreat/devopslab.git
+git clone https://gitlab.com/NakshathraP/devops-ex2.git
 
 # Task 3: Making Changes and Creating a Branch
-cd devopslab
+cd devops-ex2
 touch test.txt
 echo "This is a test file." > test.txt
 git status
@@ -261,7 +261,6 @@ git branch feature
 git checkout feature
 
 # Task 4: Pushing Changes to GitLab
-REPO_URL=https://gitlab.com/MukeshTheGreat/devopslab.git
 git push -u origin feature
 
 # Task 5: Collaborating through Merge Requests
@@ -282,15 +281,10 @@ git pull origin main
 
 1. **Creating a Repository**:
    - A new GitLab repository named `DevOpsLab` is created with the specified details.
-   ![1-1](../photos/Ex2/1-1.png?raw=true)
-   ![1-2](../photos/Ex2/1-2.png?raw=true)
-   ![1-3](../photos/Ex2/1-3.png?raw=true)
-   ![1-4](../photos/Ex2/1-4.png?raw=true)
-   ![1-5](../photos/Ex2/1-5.png?raw=true)
+   ![1-1](../photos/Ex2/2-1.png?raw=true)
 
 2. **Cloning a Repository**:
    - The repository is successfully cloned to the local machine.
-   ![2-1](../photos/Ex2/2-1.png?raw=true)
    ![2-2](../photos/Ex2/2-2.png?raw=true)
    ![2-3](../photos/Ex2/2-3.png?raw=true)
 
@@ -299,36 +293,22 @@ git pull origin main
    - `test.txt` file created and modified.
    - Changes staged and committed.
    - New branch `feature` created and switched to.
-   ![3-1](../photos/Ex2/3-1.png?raw=true)
-   ![3-2](../photos/Ex2/3-2.png?raw=true)
-   ![3-3](../photos/Ex2/3-3.png?raw=true)
-   ![3-4](../photos/Ex2/3-4.png?raw=true)
-   ![3-5](../photos/Ex2/3-5.png?raw=true)
-   ![3-6](../photos/Ex2/3-6.png?raw=true)
-   ![3-7](../photos/Ex2/3-7.png?raw=true)
-   ![3-8](../photos/Ex2/3-8.png?raw=true)
 
 4. **Pushing Changes to GitLab**:
    - `feature` branch pushed to GitLab.
    - Verified the new branch `feature` is available in the GitLab repository.
-   ![4-1](../photos/Ex2/4-1.png?raw=true)
-   ![4-2](../photos/Ex2/4-2.png?raw=true)
-   ![4-3](../photos/Ex2/4-3.png?raw=true)
+   ![3-1](../photos/Ex2/2-4.png?raw=true)
 
 5. **Collaborating through Merge Requests**:
    - Merge request created, reviewed, and merged on GitLab.
-   ![5-1](../photos/Ex2/5-1.png?raw=true)
-   ![5-2](../photos/Ex2/5-2.png?raw=true)
-   ![5-3](../photos/Ex2/5-3.png?raw=true)
-   ![5-4](../photos/Ex2/5-4.png?raw=true)
-   ![5-5](../photos/Ex2/5-5.png?raw=true)
-   ![5-6](../photos/Ex2/5-6.png?raw=true)
-   ![5-7](../photos/Ex2/5-7.png?raw=true)
-   ![5-8](../photos/Ex2/5-8.png?raw=true)
+   ![5-5](../photos/Ex2/2-5.png?raw=true)
+   ![5-6](../photos/Ex2/2-6.png?raw=true)
+   ![5-7](../photos/Ex2/2-7.png?raw=true)
+   ![5-8](../photos/Ex2/2-8.png?raw=true)
 
 6. **Syncing Changes**:
    - Local repository updated with the latest changes from the remote repository.
-   ![6-1](../photos/Ex2/6-1.png?raw=true)
+   ![6-1](../photos/Ex2/2-9.png?raw=true)
 
 <div style="page-break-after: always;"></div>
 
@@ -406,11 +386,10 @@ Algorithm for Implementing Bitbucket Operations using Git
 # Task 2: Cloning a Repository
 # 1. Copy the repository URL.
 # 2. Open terminal.
-git clone https://mukeshtp@bitbucket.org/devopslab-mukesh/devopslab.git
+git clone https://nakshathragreeneem@bitbucket.org/devops-example-72/devops-ex3.git
 
 # Task 3: Making Changes and Creating a Branch
-cd example-repo
-touch test.txt
+cd devops-ex3
 echo "This is a test file." > test.txt
 git status
 git add test.txt
@@ -419,7 +398,6 @@ git branch feature
 git checkout feature
 
 # Task 4: Pushing Changes to Bitbucket
-REPO_URL=https://mukeshtp@bitbucket.org/devopslab-mukesh/devopslab.git
 git push -u origin feature
 
 # Task 5: Collaborating through Pull Requests
@@ -439,53 +417,33 @@ git pull origin main
 #### Output
 
 1. **Creating a Repository**:
-   - A new Bitbucket repository named `example-repo` is created with the specified details.
-   ![1-1](../photos/Ex3/1-1.png?raw=true)
-   ![1-2](../photos/Ex3/1-2.png?raw=true)
-   ![1-3](../photos/Ex3/1-3.png?raw=true)
-   ![1-4](../photos/Ex3/1-4.png?raw=true)
-   ![1-5](../photos/Ex3/1-5.png?raw=true)
+   - A new Bitbucket repository named `devops-ex3` is created with the specified details.
+   ![1-1](../photos/Ex3/3-1.png?raw=true)
 
 2. **Cloning a Repository**:
    - The repository is successfully cloned to the local machine.
-   ![2-1](../photos/Ex3/2-1.png?raw=true)
-   ![2-2](../photos/Ex3/2-2.png?raw=true)
-   ![2-3](../photos/Ex3/2-3.png?raw=true)
+   ![2-1](../photos/Ex3/3-2.png?raw=true)
 
 3. **Making Changes and Creating a Branch**:
    - Navigated into the cloned repository.
    - `test.txt` file created and modified.
    - Changes staged and committed.
    - New branch `feature` created and switched to.
-   ![3-1](../photos/Ex3/3-1.png?raw=true)
-   ![3-2](../photos/Ex3/3-2.png?raw=true)
-   ![3-3](../photos/Ex3/3-3.png?raw=true)
-   ![3-4](../photos/Ex3/3-4.png?raw=true)
-   ![3-5](../photos/Ex3/3-5.png?raw=true)
-   ![3-6](../photos/Ex3/3-6.png?raw=true)
-   ![3-7](../photos/Ex3/3-7.png?raw=true)
-   ![3-8](../photos/Ex3/3-8.png?raw=true)
+   ![3-1](../photos/Ex3/3-3.png?raw=true)
+   ![3-1](../photos/Ex3/3-4.png?raw=true)
 
 4. **Pushing Changes to Bitbucket**:
    - `feature` branch pushed to Bitbucket.
    - Verified the new branch `feature` is available in the Bitbucket repository.
-   ![4-1](../photos/Ex3/4-1.png?raw=true)
-   ![4-2](../photos/Ex3/4-2.png?raw=true)
-   ![4-3](../photos/Ex3/4-3.png?raw=true)
 
 5. **Collaborating through Pull Requests**:
    - Pull request created, reviewed, and merged on Bitbucket.
-   ![5-1](../photos/Ex3/5-1.png?raw=true)
-   ![5-2](../photos/Ex3/5-2.png?raw=true)
-   ![5-3](../photos/Ex3/5-3.png?raw=true)
-   ![5-4](../photos/Ex3/5-4.png?raw=true)
-   ![5-5](../photos/Ex3/5-5.png?raw=true)
-   ![5-6](../photos/Ex3/5-6.png?raw=true)
+   ![5-1](../photos/Ex3/3-5.png?raw=true)
+   ![5-2](../photos/Ex3/3-6.png?raw=true)
 
 6. **Syncing Changes**:
    - Local repository updated with the latest changes from the remote repository.
-   ![6-1](../photos/Ex3/6-1.png?raw=true)
-   ![6-2](../photos/Ex3/6-2.png?raw=true)
+   ![6-1](../photos/Ex3/3-7.png?raw=true)
 
 <div style="page-break-after: always;"></div>
 
@@ -572,34 +530,26 @@ chmod +x .git/hooks/pre-commit
 
 1. **Interactive Rebase**:
    - Successfully rebased the commit history to clean up and combine multiple commits.
-   ![a-1](../photos/Ex4/a-1.png?raw=true)
-   ![a-2](../photos/Ex4/a-2.png?raw=true)
+   ![a-1](../photos/Ex4/1-1.png?raw=true)
 
 2. **Stashing Changes**:
    - Successfully stashed and reapplied changes.
-   ![b-1](../photos/Ex4/b-1.png?raw=true)
-   ![b-2](../photos/Ex4/b-2.png?raw=true)
+   ![b-1](../photos/Ex4/2-1.png?raw=true)
 
 3. **Reverting and Resetting**:
    - Successfully reverted a commit and experimented with different reset options.
-   ![c-1](../photos/Ex4/c-1.png?raw=true)
-   ![c-2](../photos/Ex4/c-2.png?raw=true)
-   ![c-3](../photos/Ex4/c-3.png?raw=true)
+   ![c-1](../photos/Ex4/3-1.png?raw=true)
+   ![c-2](../photos/Ex4/3-2.png?raw=true)
 
 4. **Cherry-Picking a Commit**:
    - Successfully cherry-picked a commit from another branch and resolved any conflicts.
-   ![d-1](../photos/Ex4/d-1.png?raw=true)
-   ![d-2](../photos/Ex4/d-2.png?raw=true)
+   ![d-1](../photos/Ex4/4-1.png?raw=true)
 
 5. **Working with Submodules**:
    - Successfully added, cloned, and updated submodules in the repository.
-   ![e-1](../photos/Ex4/e-1.png?raw=true)
-   ![e-2](../photos/Ex4/e-2.png?raw=true)
 
 6. **Implementing Git Hooks**:
    - Successfully created a pre-commit hook that prevents commits with "TODO" comments.
-   ![f-1](../photos/Ex4/f-1.png?raw=true)
-   ![f-2](../photos/Ex4/f-2.png?raw=true)
 
 #### **Result**
 
@@ -761,7 +711,7 @@ touch src/main/java/com/example/app/App.java
 # Commit and Push to GitHub
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/mukeshtp/MyJavaApp.git
+git remote add origin https://github.com/NakshathraP/DevOps.git
 git push -u origin main
 
 # Step 4: Create pom.xml
@@ -1130,6 +1080,8 @@ docker rmi my-apache-server
 
 By following the AIM and Algorithm, containerization and deployment of a simple HTML page were successfully completed using Docker.
 
+<div style="page-break-after: always;"></div>
+
 <table style="width: 100%; border-collapse: collapse; padding:0;">
   <tr>
     <td style="width: 20%; border: 1px solid black; padding: 0;">
@@ -1190,7 +1142,7 @@ echo "FROM nginx:latest\nCOPY index.html /usr/share/nginx/html/index.html\nEXPOS
 git init
 git add .
 git commit -m "Initial commit for web app CI/CD"
-git remote add origin https://github.com/yourusername/webapp-ci-cd.git
+git remote add origin https://github.com/NakshathraP/DevOps.git
 git push -u origin master
 
 # Step 6: Docker commands in Jenkins job
@@ -1229,6 +1181,8 @@ docker run -d -p 8081:80 --name=container1 nginx-webapp
 #### **Result**  
 
 Successfully created a CI/CD pipeline using Jenkins and Docker to automate deployment for a web application.
+
+<div style="page-break-after: always;"></div>
 
 <table style="width: 100%; border-collapse: collapse; padding:0;">
   <tr>
@@ -1289,7 +1243,7 @@ echo "console.log('Server is running');" > server.js
 git init
 git add .
 git commit -m "Initial commit for Node.js CI/CD lab"
-git remote add origin https://github.com/yourusername/nodejs-ci-cd-app.git
+git remote add origin https://github.com/NakshathraP/DevOps.git
 git push -u origin master
 
 # Step 2: Create Dockerfile
@@ -1332,6 +1286,8 @@ docker run -d -p 3001:3000 --name=node-container nodejs-app
 #### **Result**  
 
 The CI/CD pipeline was successfully implemented using Jenkins and Docker to automate deployment for a Node.js application.
+
+<div style="page-break-after: always;"></div>
 
 <table style="width: 100%; border-collapse: collapse; padding:0;">
   <tr>
@@ -1402,7 +1358,7 @@ To implement a Blue-Green Deployment strategy for a Node.js application using Je
    git init
    git add .
    git commit -m "Initial commit for Blue-Green Deployment Lab"
-   git remote add origin https://github.com/yourusername/blue-green-deployment-app.git
+   git remote add origin https://github.com/NakshathraP/Blue-Green.git
    git push -u origin master
    ```
 
@@ -1442,18 +1398,14 @@ To implement a Blue-Green Deployment strategy for a Node.js application using Je
 1. **Setup Node.js Project**:
    - Node.js application initialized, Express installed.
    - Server file (`server.js`) created with response: "Hello from Blue-Green Deployment!"
-
    ![1-1](../photos/Ex12/1-1.png?raw=true)
 
 2. **Dockerfile Created**:
    - Dockerfile created, specifying the use of a Node.js base image.
-
    ![2-1](../photos/Ex12/2-1.png?raw=true)
 
 3. **Docker Image Built and Pushed to Docker Hub**:
    - Docker image successfully built and pushed to Docker Hub.
-
-   ![3-3](../photos/Ex12/3-3.png?raw=true)
 
 4. **Jenkins Pipeline Configured**:
    - Pipeline created in Jenkins, with webhooks enabled.
@@ -1461,7 +1413,7 @@ To implement a Blue-Green Deployment strategy for a Node.js application using Je
 5. **Zero-Downtime Deployment Observed**:
    - Verified blue-green deployment with zero-downtime as the application switched between environments.
 
-   ![5-2](../photos/Ex12/5-2.png?raw=true)
+   ![5-2](../photos/Ex12/5-1.png?raw=true)
 
 #### **Result**
 
